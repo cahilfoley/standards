@@ -1,0 +1,23 @@
+{
+  "name": "@cahil/standards",
+  "version": "1.0.0",
+  "description": "Sharable tooling configurations for my projects",
+  "main": "index.js",
+  "author": "Cahil Foley",
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "^4"
+  },
+  "private": false,
+  "publishConfig": {
+    "private": false
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.10.2",
+    "@typescript-eslint/parser": "^1.10.2",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "prettier": "^1.18.2"
+  }
+}
